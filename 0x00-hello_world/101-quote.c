@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - A program that prints without using functions
- * Return: 1
+ * Return: 1 (Success)
  */
 int main(void)
 {
