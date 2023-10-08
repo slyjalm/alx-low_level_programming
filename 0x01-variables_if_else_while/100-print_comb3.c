@@ -5,7 +5,7 @@
 /**
  * main - Entry point of the program
  *
- * This function returns an integer value to indicate the exit status of the program
+ *returns an integer value to indicate the exit status of the program
  *
  * Return: 0 (Success)
  *
