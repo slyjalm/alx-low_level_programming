@@ -4,6 +4,7 @@
 
 /**
  * main -  Entry function of the program
+ * It returns an integer value to indicate the exit status of the program
  *
  * Returns: 0 (Success)
  *
