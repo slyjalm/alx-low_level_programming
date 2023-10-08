@@ -3,7 +3,8 @@
 #include <time.h>
 
 /**
- * main - Entry point for program
+ * main -  Entry function of the program
+ *
  * Returns: 0 (Success)
  *
  */
