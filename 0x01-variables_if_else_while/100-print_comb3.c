@@ -3,10 +3,11 @@
 #include <time.h>
 
 /**
- * main - start of the program
- * It returns an integer value to indicate the exit status of the program
+ * main - Entry point of the program
  *
- * Returns: 0 (Success)
+ * This function returns an integer value to indicate the exit status of the program
+ *
+ * Return: 0 (Success)
  *
  */
 
