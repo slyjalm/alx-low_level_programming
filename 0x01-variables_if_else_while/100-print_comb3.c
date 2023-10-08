@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main -  Entry function of the program
+ * main - start of the program
  * It returns an integer value to indicate the exit status of the program
  *
  * Returns: 0 (Success)
