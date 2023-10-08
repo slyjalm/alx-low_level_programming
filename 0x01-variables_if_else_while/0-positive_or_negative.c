@@ -3,12 +3,13 @@
 #include <time.h>
 
 /**
- * main - a program that returns positive and negative
- *
- * Return: Always (Success)
- */
+* main - a program that returns positive and negative
+*
+* Return: Always (Success)
+*/
 
 int main(void)
+
 {
     int n;
 
@@ -20,15 +21,15 @@ int main(void)
 
     if (n > 0)
     {
-        printf("positive");
+        printf("%d is positive\n", n);
     }
     else if (n == 0)
     {
-        printf("zero");
+        printf("%d is zero\n", n);
     }
     else
     {
-        printf("negative");
+        printf("%d is negative\n", n);
     }
 
     printf("\n");
