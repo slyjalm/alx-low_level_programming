@@ -1,4 +1,10 @@
 #include <stdio.h>
+/**
+ * main - Entry function of the program
+ *
+ * Return: 0 (Success)
+ *
+ */
 
 int main(void)
 
