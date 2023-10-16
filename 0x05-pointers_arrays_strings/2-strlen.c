@@ -4,6 +4,8 @@
  * @a/; string
  * Return: length
  */
+int a;
+
 int _strlen(char *a)
 {
 	int longi = 0;
