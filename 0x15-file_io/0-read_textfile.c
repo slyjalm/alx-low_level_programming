@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <fentl.h>
+#include <fcntl.h>
 #include <stdlib.h>
 
 /**
@@ -12,7 +12,7 @@
  * Return: actual number of letters it could read and print
  */
 
-ssize_t read_textfile(const char *filename, size_t letters);
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int file_d;
 	ssize_t lenr, lenw;
@@ -31,7 +31,7 @@ ssize_t read_textfile(const char *filename, size_t letters);
 	}
 	lenr = read(file_d, buffer, letters);
 	close(file_d);
-	if (lenr == _i)
+	if (lenr == -1)
 	{
 		free(buffer);
 		return (0);
